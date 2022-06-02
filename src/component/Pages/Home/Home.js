@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Shared/Footer';
 import Banner from './Banner';
 import Service from './Service';
 
@@ -7,6 +8,9 @@ const Home = () => {
         <div>
             <Banner />
             <Service />
+
+
+            <Footer />
         </div>
     );
 };
