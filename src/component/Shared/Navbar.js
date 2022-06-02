@@ -8,6 +8,7 @@ const Navbar = () => {
         <li><Link className='rounded-lg text-xl' to='/home'>Home</Link></li>
         <li><Link className='rounded-lg text-xl' to='/about'>About</Link></li>
         <li><Link className='rounded-lg text-xl' to='/blogs'>Blogs</Link></li>
+        <li><Link className='rounded-lg text-xl' to='/login'>Login</Link></li>
     </>
 
 
