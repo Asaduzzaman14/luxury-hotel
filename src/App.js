@@ -6,6 +6,7 @@ import Service from './component/Pages/Home/Service';
 import Login from './component/Login/Login';
 import Signup from './component/Shared/Signup';
 import Blog from './component/Pages/Blog';
+import RequirAuth from './component/Shared/RequirAuth';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
 
       <Routes>
         <Route path="/home" element={<Home />}></Route>
-        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/blog" element={<RequirAuth> <Blog /> </RequirAuth>}></Route>
         <Route path="/home" element={<Home />}></Route>
 
 
