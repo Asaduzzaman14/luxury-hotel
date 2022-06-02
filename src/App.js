@@ -6,15 +6,11 @@ import Service from './component/Pages/Home/Service';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar>
-      </Navbar>
-      {/* 
-      <Routes>
-        <Home />
-        <Service />
+    <div >
+      <Navbar />
+      <Home />
 
-      </Routes> */}
+
 
 
 
