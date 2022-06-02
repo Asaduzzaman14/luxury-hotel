@@ -4,6 +4,8 @@ import Home from './component/Pages/Home/Home';
 import Navbar from './component/Shared/Navbar';
 import Service from './component/Pages/Home/Service';
 import Login from './component/Login/Login';
+import Signup from './component/Shared/Signup';
+import Blog from './component/Pages/Blog';
 
 function App() {
   return (
@@ -12,7 +14,13 @@ function App() {
 
       <Routes>
         <Route path="/home" element={<Home />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+
+
+
         <Route path="/login" element={<Login />}></Route>
+        <Route path="/signup" element={<Signup />}></Route>
 
       </Routes>
 
