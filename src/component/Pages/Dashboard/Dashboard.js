@@ -20,7 +20,8 @@ const Dashboard = () => {
 
 
                         <li><Link to='addreview'>Add Review</Link></li>
-                        <li><Link to='orders'>My Orders</Link></li>
+                        <li><Link to='mybooking'>My Booking</Link></li>
+                        <li><Link to='history'>History</Link></li>
 
                     </ul>
 

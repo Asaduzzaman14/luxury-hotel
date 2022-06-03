@@ -8,6 +8,9 @@ import Signup from './component/Shared/Signup';
 import Blog from './component/Pages/Blog';
 import RequirAuth from './component/Shared/RequirAuth';
 import Dashboard from './component/Pages/Dashboard/Dashboard';
+import MyBooking from './component/Pages/Dashboard/MyBooking';
+import History from './component/Pages/Dashboard/History';
+import AddReview from './component/Pages/Dashboard/AddReview';
 
 function App() {
   return (
@@ -20,11 +23,18 @@ function App() {
         <Route path="/blog" element={<RequirAuth> <Blog /> </RequirAuth>}></Route>
         <Route path="/home" element={<Home />}></Route>
 
-        <Route path="/dashborad" element={<Dashboard>
+
+
+        <Route path="/dashborad" element={<Dashboard> </Dashboard>}>
+
+          <Route index element={<MyBooking />}></Route>
+          <Route path='history' element={<History />}></Route>
+          <Route path='addreview' element={<AddReview />}></Route>
+          <Route path='mybooking' element={<MyBooking />}></Route>
 
 
 
-        </Dashboard>}></Route>
+        </Route>
 
 
 

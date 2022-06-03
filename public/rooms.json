@@ -3,24 +3,18 @@
         "_id": 1,
         "name": "Luxury room",
         "price": "1550",
-        "img": "https://ibb.co/CbDTK8m"
+        "img": "https://i.ibb.co/MGtSMz2/bernard-hermant-6ft-Zu-O-b64-unsplash-1.png"
     },
     {
         "_id": 1,
         "name": "Familly Room",
         "price": "1999",
-        "img": "https://ibb.co/CbDTK8m"
-    },
-    {
-        "_id": 1,
-        "name": "Single room",
-        "price": "1200",
-        "img": "https://ibb.co/CbDTK8m"
+        "img": "https://i.ibb.co/VtRX4VH/Mask-Group.png"
     },
     {
         "_id": 1,
         "name": "Luxury room",
         "price": "1750",
-        "img": "https://ibb.co/CbDTK8m"
+        "img": "https://i.ibb.co/tZfRpt3/Mask-Group-1.png"
     }
 ]
