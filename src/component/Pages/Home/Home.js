@@ -1,13 +1,13 @@
 import React from 'react';
 import Footer from '../../Shared/Footer';
 import Banner from './Banner';
-import Service from './Service';
+import Services from './Services';
 
 const Home = () => {
     return (
         <div>
             <Banner />
-            <Service />
+            <Services />
 
 
             <Footer />

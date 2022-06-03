@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "name": "Luxury room",
+        "price": "1550",
+        "img": "https://ibb.co/CbDTK8m"
+    },
+    {
+        "_id": 1,
+        "name": "Familly Room",
+        "price": "1999",
+        "img": "https://ibb.co/CbDTK8m"
+    },
+    {
+        "_id": 1,
+        "name": "Single room",
+        "price": "1200",
+        "img": "https://ibb.co/CbDTK8m"
+    },
+    {
+        "_id": 1,
+        "name": "Luxury room",
+        "price": "1750",
+        "img": "https://ibb.co/CbDTK8m"
+    }
+]

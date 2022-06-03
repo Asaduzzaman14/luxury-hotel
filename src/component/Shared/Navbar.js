@@ -23,10 +23,20 @@ const Navbar = () => {
         <li><Link className='rounded-lg text-xl' to='/about'>About</Link></li>
         <li><Link className='rounded-lg text-xl' to='/blog'>Blogs</Link></li>
 
-        {user ?
-            <li><button onClick={userSignOut} className='btn btn-outline hover:bg-red-600 rounded-lg '>Sign Out</button></li>
-            :
-            <li><Link className='rounded-lg text-xl' to='/login'>Login</Link></li>
+
+
+        <li>
+            <Link to='/dashborad' className='btn btn-ghost text-xl'>Dashborad</Link>
+        </li>
+
+
+
+
+        {
+            user ?
+                <li><button onClick={userSignOut} className='btn btn-outline hover:bg-red-600 rounded-lg '>Sign Out</button></li>
+                :
+                <li><Link className='rounded-lg text-xl' to='/login'>Login</Link></li>
         }
     </>
 

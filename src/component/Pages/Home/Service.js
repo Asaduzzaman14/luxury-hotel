@@ -1,9 +1,13 @@
 import React from 'react';
 
-const Service = () => {
+const Service = ({ room }) => {
+
+    const { name, _id, img, price } = room
+
     return (
         <div>
-            <h2 className="text-3xl my-5">OUR SERVICES</h2>
+            <h2>Name: {name}</h2>
+            <img src={img} alt="" />
         </div>
     );
 };
